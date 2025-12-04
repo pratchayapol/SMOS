@@ -2,8 +2,8 @@ FROM php:8.2-fpm
 
 # ติดตั้ง dependencies ที่จำเป็น
 RUN apt-get update && apt-get install -y \
-    git curl zip unzip nodejs npm libxml2-dev \
-    && docker-php-ext-install pdo pdo_mysql mbstring tokenizer dom \
+    git curl zip unzip nodejs npm libxml2-dev libonig-dev \
+    && docker-php-ext-install pdo pdo_mysql mbstring dom \
     && rm -rf /var/lib/apt/lists/*
 
 # ติดตั้ง Composer
