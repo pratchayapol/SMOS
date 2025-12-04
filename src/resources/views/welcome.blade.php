@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PCN Pay</title>
+    <title>SMOS</title>
     <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -84,11 +84,11 @@
         <!-- Title -->
         <h1 class="text-2xl font-bold mb-1">
             <span class="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                ระบบชำระค่าอินเตอร์เน็ต
+                ระบบเบิกจ่ายวัสดุคอมและสำนักงาน
             </span>
         </h1>
-        <p class="text-lg font-semibold text-gray-800 mb-1">PCN Pay</p>
-        <p class="text-gray-500 mb-8 text-sm">เข้าสู่ระบบเพื่อชำระค่าบริการ</p>
+        <p class="text-lg font-semibold text-gray-800 mb-1">SMOS</p>
+        <p class="text-gray-500 mb-8 text-sm">เข้าสู่ระบบ</p>
 
         <!-- Google Sign In Button -->
         <a href="{{ url('auth/google') }}"

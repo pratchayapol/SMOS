@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PCN Pay</title>
+    <title>SMOS</title>
     <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -35,7 +35,7 @@
                         </svg>
                     </div>
                     <span class="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                        PCN Pay
+                        SMOS
                     </span>
                 </div>
 
@@ -139,7 +139,7 @@
 
     <!-- Footer -->
     <footer class="mt-12 py-6 text-center text-gray-500 text-sm">
-        <p>&copy; 2025 PCN Pay. All rights reserved.</p>
+        <p>&copy; 2025 SMOS. All rights reserved.</p>
     </footer>
 
     <script src="{{ asset('js/app.js') }}"></script>
